@@ -39,7 +39,7 @@ soggetti | str | soggetti rappresentati | Pietà |
 | genere_artista | str | genere dell'artista | maschio
 | area opera | float | area dell'opera in cm² | 29568.00|
 
-##Metodi e strumenti
+## Metodi e strumenti
 Il progetto è stato sviluppato in un ambiente Google Colab utilizzando il linguaggio di programmazione Python. Lo strumento principale utilizzato per la manipolazione e l'analisi dei dati è la libreria Pandas, insieme a Matplotlib/Seaborn per la visualizzazione.
 
 Le operazioni includono:
