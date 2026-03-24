@@ -44,14 +44,14 @@ Il progetto è stato sviluppato in un ambiente Google Colab utilizzando il lingu
 
 Le operazioni includono:
 
-- Caricamento e ispezione dei dati;
-- Bonifica e normalizzazione dei dati (conversione delle date in tipo Int64, correzione manuale di outlier come le altezze e larghezze minime e massime errate, normalizzazione dei valori della colonna generi, correzione manuale di un titolo errato, );
+- Caricamento e ispezione dei dati (__pd.read_csv, .shape, .columns, df.info(), df.describe(), .duplicated(), .nunique(), .head(), .tail()__);
+- Bonifica e normalizzazione dei dati (conversione delle date in tipo Int64, correzione manuale di outlier come le altezze e larghezze minime e massime errate, normalizzazione dei valori della colonna generi, correzione manuale di un titolo errato);
 - Creazione di nuove variabili calcolate (genere_artista, area_opera);
-- Analisi esplorativa tramite aggregazioni e visualizzazioni tramite grafici a dispersione, a barre e a torta;
+- Analisi esplorativa tramite aggregazioni (__.value_counts()__), iterazioni (__.iterrows()__) e visualizzazioni tramite grafici a dispersione, a barre e a torta;
 - Analisi esplicativa tramite aggregazioni e grafici a barre e a dispersione focalizzata sul rapporto tra i valori incrociati delle colonne genere_artista, area_opera e generi delle opere al fine di evidenziare l'esistenza di un rapporto tra le artiste di genere femminile e committenza importante nel corso della storia dell'arte.
 
 ## Responsabile
-- Pierno, Chiara - researcher
+- Pierno, Chiara - Researcher
 
 ## Licenza
 I dati di input e il codice di output (incluso in questo Notebook) sono rilasciati sotto licenza [CC0 1.0 Universal]( https://creativecommons.org/publicdomain/zero/1.0/).
