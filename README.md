@@ -1,5 +1,6 @@
 # La firma femminile commissionata
 ## DOI
+https://doi.org/10.5281/zenodo.19210480
 
 ## Descrizione
 Questo progetto consiste in un'analisi esplorativa ed esplicativa di un dataset contenente dati relativi ad opere d'arte figurativa prodotte nell'arco di circa un millennio. L'analisi è focalizzata sull'indagine del rapporto tra le artiste di genere femminile e la committenza nella storia dell'arte attraverso tre domande di ricerca:
